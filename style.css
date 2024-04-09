@@ -1,0 +1,23 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(113 197 207);
+
+    
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#board{
+    /* background-color: skyblue; */
+    background-image: url('flappybirdbg.png');
+    cursor: pointer;
+}
